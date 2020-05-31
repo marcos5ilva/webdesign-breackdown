@@ -1,0 +1,10 @@
+.pill {
+    display: inline-block;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    padding: 0 1rem;
+    border-radius: 1.6rem; //take the height divided by 2
+    background-color: $color-green-500;
+    color: white;
+    text-transform: uppercase;
+}

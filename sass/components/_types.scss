@@ -1,0 +1,31 @@
+body {
+    font-size: 1.6rem;
+    color: $color-grey-500;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: $color-grey-500;
+}
+
+h1 {
+    font-size: 6.4rem;
+    color: $color-grey-900;
+    font-weight: 900;
+
+}
+
+h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: $color-green-500;
+
+}
+
+
+h3 {
+    font-size: 2.4rem;
+
+    color: $color-grey-900;
+}

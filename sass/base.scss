@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500&display=swap');
+
+
+
+
+@import './reset';
+@import './variables';
+@import './components/buttons.scss';
+@import './components/types.scss';
+@import './components/header.scss';
+@import './components/pills';
+
+
+html {
+    font-size: 10px;
+}
+
+.wrapper {
+    max-width: 120rem;
+    margin: auto;
+}

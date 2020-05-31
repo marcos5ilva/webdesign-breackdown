@@ -1,0 +1,58 @@
+section.title {
+  position: relative;
+  background: linear-gradient(to bottom right, white, #e7f2fd); }
+  section.title .wrapper {
+    position: relative;
+    margin-top: 8rem; }
+  section.title .text {
+    max-width: 50rem; }
+    section.title .text h1 {
+      margin: 4rem 0; }
+    section.title .text p {
+      line-height: 2;
+      margin-bottom: 6rem; }
+  section.title .shapes {
+    position: absolute;
+    width: 16rem;
+    height: 8rem;
+    right: 20%;
+    top: 0; }
+    section.title .shapes:before {
+      display: inline-block;
+      content: '';
+      width: 16rem;
+      height: 8rem;
+      border-top-right-radius: 8rem;
+      border-top-left-radius: 8rem;
+      background-color: #00a2a9; }
+    section.title .shapes svg {
+      position: absolute;
+      left: 50%;
+      top: -2rem; }
+  section.title blockquote {
+    width: 24rem;
+    position: absolute;
+    right: 0;
+    bottom: 20%; }
+    section.title blockquote svg {
+      height: 2rem;
+      margin-bottom: 2rem; }
+      section.title blockquote svg path {
+        stroke-width: 1.5; }
+    section.title blockquote p {
+      font-style: italic;
+      line-height: 1.5rem;
+      margin-bottom: 2rem; }
+    section.title blockquote footer {
+      display: flex;
+      align-items: center; }
+    section.title blockquote img {
+      border-radius: 50%;
+      border: white 2px solid;
+      box-shadow: 0 0 0.2rem 0.2rem rgba(3, 27, 78, 0.2);
+      margin-right: 1rem; }
+    section.title blockquote span {
+      color: #031b4e;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.5rem; }
